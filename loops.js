@@ -33,9 +33,12 @@ return the array. */
 
 function doWhileLoop(array){
   var i = 0;
+   function incrementVariable(){
+    i++;
+  }
     do {
       array.pop();
       incrementVariable(i);
-    } while(array.length > 0 && incrementVariable());
+    } while(array.length > 0 && incrementVariable(i));
      
 }
