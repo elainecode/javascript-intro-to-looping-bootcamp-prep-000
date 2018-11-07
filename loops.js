@@ -30,9 +30,7 @@ from this README) as the condition, and remove elements from the array until the
 array is empty or until `incrementVariable()` returns `false`. (Your condition
 might look something like `array.length > 0 && incrementVariable()`.) Finally,
 return the array. */
- function incrementVariable(i){
-    i++;
-  }
+
 function doWhileLoop(array){
   var i = 0;
     do {
