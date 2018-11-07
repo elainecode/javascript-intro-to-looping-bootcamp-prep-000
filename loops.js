@@ -38,7 +38,7 @@ function doWhileLoop(array){
   }
     do {
       array.pop();
-      incrementVariable(i);
-    } while(array.length > 0 && incrementVariable(i));
+      incrementVariable();
+    } while(array.length > 0 && incrementVariable());
      
 }
